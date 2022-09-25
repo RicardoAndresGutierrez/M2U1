@@ -1,0 +1,73 @@
+/*font-family: 'Chau Philomene One', sans-serif; SUBTITULOS
+font-family: 'Belleza', sans-serif; PARRAFOS
+font-family: 'Playfair Display', serif; NOMBRE*/
+
+h1 {
+    /*Nombre CV*/
+    color: brown;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+}
+
+h2 {
+    /*Nombre Formulario*/
+    color: rgb(0, 30, 150);
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Playfair Display', serif;
+}
+
+h3 {
+    /*CONTACTO Formulario*/
+    color: brown;
+    font-family: 'Chau Philomene One', sans-serif;
+}
+
+/*ver si es valido "h3,h4" para usar las mismas propiedades*/
+
+h4 {
+    /*Titulos listas*/
+    color: brown;
+    font-family: 'Chau Philomene One', sans-serif;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: 'Belleza', sans-serif;
+}
+
+.destacado {
+    color: brown;
+    font-size: 22px;
+}
+
+.cajainfo {
+    width: 300px;
+    border: 2px solid black;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    background: linear-gradient(211deg, rgba(255, 255, 255, 1) 0%, rgba(181, 152, 99, 1) 35%, rgba(255, 255, 255, 1) 99%);
+    border-radius: 0 27px;
+}
+
+.cajainfo li {
+    font-family: 'Belleza', sans-serif;
+}
+
+#caja1 {
+    width: 500px;
+    height: 200px;
+    background-color: rgb(202, 228, 237);
+    border: 1px solid black;
+    padding: 5px;
+    box-sizing: border-box;
+    background: linear-gradient(114deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+}
+
+img {
+    border-radius: 0px 200px 200px 200px;
+    box-shadow: -8px 17px 19px 0px rgba(0, 0, 0, 0.36);
+}

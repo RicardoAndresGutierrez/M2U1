@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO CONTACTO CV</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Belleza&family=Chau+Philomene+One&family=Oleo+Script:wght@700&family=Playfair+Display:wght@800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="EstilosCV.css">
+</head>
+
+<body>
+    <h1>FORMULARIO DE CONTACTO</h1>
+    <h2>Ricardo Andres Gutierrez</h2>
+    <form action="" method="">
+        <h3>CONTACTO <i class="fa-regular fa-pen-to-square"></i></i></h3>
+        <p>
+            <label for="nom">Nombre(s)</label>
+            <input type="text" name="Nombre" />
+            <label for="nom">Apellido(s)</label>
+            <input type="text" name="apellido" />
+        </p>
+        <p>
+            <label for="age">Edad</label>
+            <input type="number" />
+        </p>
+        <p>
+            <label for="sexo">Sexo</label>
+        </p>
+        <p>
+        <ul>
+            <li>
+                <input type="radio" name="sexo" value="Hombre" />
+                <label>Hombre</label>
+            </li>
+            <li>
+                <input type="radio" name="sexo" id="Mujer" />
+                <label for="sexo">Mujer</label>
+            </li>
+        </ul>
+        </p>
+        <p>
+            <label for="Mail">Mail de contacto:</label>
+            <input type="text" />
+            <label for="@">@</label>
+            <select name="Mail">
+                <option value="Gmail">gmail.com</option>
+                <option value="Hotmail">hotmail.com</option>
+                <option value="Outlook">outlook.com</option>
+            </select>
+        </p>
+        <p>
+            <label for="Desea recibir mail">Desea recibir Mail:</label>
+            <input type="checkbox" name="recibir mail" value="mail" id="mail" />
+        </p>
+        <p>
+            <label for="Teléfono">Teléfono:</label>
+            <input type="text" name="Teléfono" placeholder="+54911223344" />
+        </p>
+        <p>
+            <label for="Usa Whatsapp">Desea recibir Whatsapp:</label>
+            <input type="checkbox" name="Whatsapp" value="Whatsapp" id="Whatsapp" />
+        </p>
+        <p>
+            <label for="contacta por:">Contacta por:</label>
+            <select name="opción de contacto">
+                <option value="Servicios Administrativos">Servicios Administrativos</option>
+                <option value="Operaciones de Rampa en Aeropuertos">Operaciones de Rampa en Aeropuertos</option>
+                <option value="Paracaidismo">Paracaidismo</option>
+                <option value="Otro">Otro</option>
+            </select>
+        </p>
+        <div id="caja1">
+            <p>
+                <label for="comentarios">Dejanos tu comentario en el siguiente box:</label>
+            </p>
+            <p>
+                <textarea name="comentarios" cols="63" rows="8" placeholder="Hola quiero info..."></textarea>
+            </p>
+        </div>
+        <p>
+            <label for="enviar archivo">Enviar archivo</label>
+            <input type="file" name="Adjuntar archivo" id="" />
+        </p>
+        <p>
+            <input type="submit" value="Enviar" />
+            <input type="reset" value="Borrar" />
+        </p>
+    </form>
+
+</body>
+
+</html>
